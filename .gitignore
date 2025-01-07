@@ -1,1 +1,28 @@
-/target
+# 忽略所有 Rust 项目的 target 目录
+**/target/
+
+# 忽略 Cargo 的构建缓存
+**/.cargo/
+
+# 忽略 Cargo 的依赖缓存
+**/Cargo.lock
+
+# 忽略 IDE 或编辑器生成的文件
+**/.idea/
+**/.vscode/
+**/.vs/
+**/*.swp
+**/*.swo
+**/*.sublime-workspace
+**/*.sublime-project
+
+# 忽略操作系统生成的文件
+**/.DS_Store
+**/Thumbs.db
+
+# 忽略 Rust 的编译输出
+**/*.rs.bk
+
+# 忽略本地环境文件（如 .env）
+**/.env
+**/.env.local
