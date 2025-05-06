@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "common-utils",
+    "std-fs-api",
+    "std-fs-api-cli"
+]

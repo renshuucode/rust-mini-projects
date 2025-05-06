@@ -26,3 +26,5 @@
 # 忽略本地环境文件（如 .env）
 **/.env
 **/.env.local
+
+**/output.txt
